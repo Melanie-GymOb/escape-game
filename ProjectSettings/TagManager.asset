@@ -9,6 +9,8 @@ TagManager:
   - Button
   - ElevatorDisplay
   - HInweistext2
+  - Anleitungstext
+  - Tuere
   layers:
   - Default
   - TransparentFX

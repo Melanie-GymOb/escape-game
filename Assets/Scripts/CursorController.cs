@@ -47,12 +47,23 @@ public class CursorController : MonoBehaviour, IPointerEnterHandler, IPointerExi
             else if (gameObject.tag == "YellowBall"){
                 gameObject.GetComponent<ShowInventory>().ShowImage();
             }
-        }
+        
             Destroy(gameObject);
             ChangeCursor(cursor);
+        }
         
 
         if (gameObject.tag == "ElevatorDisplay"){
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            int nextSceneIndex = currentSceneIndex + 1;
+            SceneManager.LoadScene(nextSceneIndex);  
+        }
+        if (gameObject.tag == "Anleitungstext"){
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            int nextSceneIndex = currentSceneIndex + 1;
+            SceneManager.LoadScene(nextSceneIndex);  
+        }
+        if (gameObject.tag == "Tuere"){
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             int nextSceneIndex = currentSceneIndex + 1;
             SceneManager.LoadScene(nextSceneIndex);  

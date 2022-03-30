@@ -78,13 +78,14 @@ public class LiftanzeigeController : MonoBehaviour
     public void Restart(){
         Debug.Log("Restart");
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex);
+        int nextSceneIndex = currentSceneIndex + 1;
+        SceneManager.LoadScene(nextSceneIndex, LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync(5);
     }
 
     public void GoBackTo1(){
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        int nextSceneIndex = currentSceneIndex - 1;
-        SceneManager.LoadScene(nextSceneIndex);
+       //int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.UnloadSceneAsync(5);
     }
     
     

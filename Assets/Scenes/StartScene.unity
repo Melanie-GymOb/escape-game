@@ -190,8 +190,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4293980405
-  m_fontColor: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -697,8 +697,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29.166016, y: 88.270966}
-  m_SizeDelta: {x: 786.668, y: 146.4776}
+  m_AnchoredPosition: {x: 11.074402, y: 95.46698}
+  m_SizeDelta: {x: 516.6481, y: 132.0855}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1311881616
 MonoBehaviour:
@@ -720,7 +720,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hier wird eine kurze Anleitung zum Spiel (z.B. Bedingung der Maus und Tastatur)
+  m_text: Hier wird eine kurze Anleitung zum Spiel (z.B. Bedienung der Maus und Tastatur)
     gegeben
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -730,8 +730,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4292235332
+  m_fontColor: {r: 0.2653524, g: 0.31406257, b: 0.8396226, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1100,7 +1100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7741311, g: 0.8679245, b: 0.118725546, a: 1}
+  m_Color: {r: 0.7932841, g: 0.8301887, b: 0.53648984, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

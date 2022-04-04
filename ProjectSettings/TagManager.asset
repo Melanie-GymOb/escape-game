@@ -11,6 +11,7 @@ TagManager:
   - HInweistext2
   - Anleitungstext
   - Tuere
+  - ArrowInElevator
   layers:
   - Default
   - TransparentFX

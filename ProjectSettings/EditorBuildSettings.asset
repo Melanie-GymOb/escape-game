@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/WelcomeText.unity
     guid: 88238c651cb82a449bfe923f3b9dcda4
   - enabled: 1
-    path: Assets/Scenes/WelcomeScene 1.unity
+    path: Assets/Scenes/Elevator.unity
     guid: f6b9074efe3c62b4fa0bb7f86633182a
   - enabled: 1
     path: Assets/Scenes/FirstPuzzleScene.unity
@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LiftanzeigeScene.unity
     guid: 9e2ae8618ba79ba4aa058e44b0c4102d
-  - enabled: 1
-    path: Assets/Scenes/Elevator.unity
-    guid: 9d91be7de59038b449f2b4d3a09dff67
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

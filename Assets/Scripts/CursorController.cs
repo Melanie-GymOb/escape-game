@@ -71,6 +71,10 @@ public class CursorController : MonoBehaviour, IPointerEnterHandler, IPointerExi
             int nextSceneIndex = currentSceneIndex + 1;
             SceneManager.LoadScene(nextSceneIndex);  
         }
+        if (gameObject.tag == "ArrowInElevator"){
+            //Debug.Log("Test");
+            gameObject.GetComponent<ShowInventory>().ShowImage();  
+        }
     }
 
     public void OnPointerEnter(PointerEventData pointerEventData)

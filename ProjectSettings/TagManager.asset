@@ -12,6 +12,7 @@ TagManager:
   - Anleitungstext
   - Tuere
   - ArrowInElevator
+  - Wall
   layers:
   - Default
   - TransparentFX

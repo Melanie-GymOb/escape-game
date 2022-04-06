@@ -25,7 +25,8 @@ public class MovePiece : MonoBehaviour
     private float mZCoord; 
 
     public string pieceStatus = "";
-    //public Transform edgeParticles;
+    public Transform edgeParticles;
+    public string pieceHoldByMouse = "";
 
     [SerializeField] Texture2D cursor; 
     [SerializeField] Texture2D cursorOver;
@@ -71,20 +72,39 @@ public class MovePiece : MonoBehaviour
     void OnMouseDrag(){
         if (pieceStatus != "locked"){
             transform.position = GetMouseWorldPos() + mOffset;
+            pieceHoldByMouse = "yes";
         }
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.name == gameObject.name){
-            transform.position = other.gameObject.transform.position;
-            pieceStatus = "locked";
-            //Instantiate(edgeParticles, other.gameObject.transform.position, edgeParticles.rotation);
-        }
-    }
-
-    
         
+
+    }
+
+    void OnMouseUp(){
+        pieceHoldByMouse = "no";
+    }
+
+    void OnTriggerStay(Collider other)
+    {
+        if ((other.gameObject.name == gameObject.name) && (pieceHoldByMouse == "no")){
+            other.GetComponent<BoxCollider>().enabled = false;
+            GetComponent<BoxCollider>().enabled = false;
+            transform.position = other.gameObject.transform.position;
+            
+            Instantiate(edgeParticles, other.gameObject.transform.position, edgeParticles.rotation);
+            pieceStatus = "locked";
+        }
+        if (other.gameObject.tag == "Wall"){
+            Debug.Log("Wall");
+        }
+    }
+
+    /*private void OnCollisionEnter(Collision other)
+        {
+        if (other.gameObject.tag == "Wall"){
+            Debug.Log("Wall");
+        }
+    }*/
+       
+  
         
 
     

@@ -21,7 +21,7 @@ TagManager:
   - UI
   - "Anzeigefl\xE4che"
   - Textanzeige
-  - 
+  - PuzzlePieces
   - 
   - 
   - 
@@ -54,4 +54,10 @@ TagManager:
     locked: 0
   - name: "Anzeigefl\xE4che"
     uniqueID: 1047834135
+    locked: 0
+  - name: PuzzleTeile
+    uniqueID: 876776283
+    locked: 0
+  - name: PlatzhalterPuzzleTeile
+    uniqueID: 3192218867
     locked: 0

@@ -4,25 +4,14 @@ using UnityEngine;
 
 public class MovePiece : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-   /* void Update()
-    {
-       Vector3 mousePosition = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, Input.mousePosition.z); //neuer Vektor übernimmt Mausposition
-       Vector3 objPosition = Camera.main.ScreenToWorldPoint (mousePosition);//ändert Mausposition in eine Unit
-       transform.position = objPosition; //Objekt folgt Maus
-    }*/
-
-    //https://www.youtube.com/watch?app=desktop&v=4KeQpPGLW7I
+    
+    
 
     private Vector3 mOffset;
 
     private float mZCoord; 
+
+    Rigidbody m_Rigidbody;
 
     public string pieceStatus = "";
     public Transform edgeParticles;
@@ -39,6 +28,12 @@ public class MovePiece : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined; //Cursor verschwindet nicht vom Bildschirm 
     }
 
+    // Start is called before the first frame update
+    void Start()
+    {
+       m_Rigidbody = GetComponent<Rigidbody>(); 
+    }
+
     public void ChangeCursor(Texture2D cursorType){
         Vector2 hotspot = new Vector2(cursorType.width/2, cursorType.height / 2);
         Cursor.SetCursor(cursorType, hotspot, CursorMode.Auto);
@@ -52,7 +47,7 @@ public class MovePiece : MonoBehaviour
         ChangeCursor(cursor);
     }
 
-//www.youtube.com/watch?v=0yHBDZHLRbQ
+
     private void OnMouseDown()
     {
         mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z; //z-Koordinate der Maus
@@ -69,9 +64,17 @@ public class MovePiece : MonoBehaviour
         return Camera.main.ScreenToWorldPoint(mousePosition);//ändert Mausposition in eine Unit der Welt
     }
 
-    void OnMouseDrag(){
+    /*void OnMouseDrag(){
         if (pieceStatus != "locked"){
             transform.position = GetMouseWorldPos() + mOffset;
+            pieceHoldByMouse = "yes";
+        }
+        
+
+    }*/
+    void OnMouseDrag(){
+        if (pieceStatus != "locked"){
+            m_Rigidbody.MovePosition(GetMouseWorldPos() + mOffset);
             pieceHoldByMouse = "yes";
         }
         
@@ -104,8 +107,8 @@ public class MovePiece : MonoBehaviour
         }
     }*/
        
-  
-        
+  //https://www.youtube.com/watch?app=desktop&v=4KeQpPGLW7I
+ //www.youtube.com/watch?v=0yHBDZHLRbQ       
 
     
 

@@ -71,9 +71,15 @@ public class CursorController : MonoBehaviour, IPointerEnterHandler, IPointerExi
             int nextSceneIndex = currentSceneIndex + 1;
             SceneManager.LoadScene(nextSceneIndex);  
         }
-        if (gameObject.tag == "ArrowInElevator"){
-            //Debug.Log("Test");
-            gameObject.GetComponent<ShowInventory>().ShowImage();  
+        if (gameObject.tag == "PuzzlePieces"){
+            gameObject.GetComponent<ShowPuzzlePieces>().ShowImages(); 
+            Destroy(gameObject); 
+
+        }if (gameObject.tag == "Infotext"){
+            Debug.Log("Text ansehen");
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            int nextSceneIndex = currentSceneIndex + 1;
+            SceneManager.LoadScene(nextSceneIndex, LoadSceneMode.Additive);  
         }
     }
 

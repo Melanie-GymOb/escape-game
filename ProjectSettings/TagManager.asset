@@ -13,6 +13,8 @@ TagManager:
   - Tuere
   - ArrowInElevator
   - Wall
+  - PuzzlePieces
+  - Infotext
   layers:
   - Default
   - TransparentFX

@@ -9,8 +9,7 @@ public class DisplayHintsElevator : MonoBehaviour
 {
     [SerializeField] GameObject[] displayHints;
     int acutalindex = 0;
-    LiftanzeigeController controller = new LiftanzeigeController();
-    ControlSpheres c = new ControlSpheres();
+    DoorDisplayController controller = new DoorDisplayController();
 
     
 

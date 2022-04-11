@@ -15,7 +15,7 @@ public class CheckForCorrectness : MonoBehaviour
             //Debug.Log("Rätsel gelöst"); 
             /*int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             int nextSceneIndex = currentSceneIndex + 1;*/
-            SceneManager.LoadScene("TEst");
+            SceneManager.LoadScene("ThirdPuzzleScene");
             }
     }
 

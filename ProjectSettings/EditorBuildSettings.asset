@@ -30,6 +30,15 @@ EditorBuildSettings:
     path: Assets/Scenes/InfotextLogic2.unity
     guid: b6adaa34c91d3ab49889db3056c33bde
   - enabled: 1
+    path: Assets/Scenes/ThirdPuzzleScene.unity
+    guid: c95198e01dbd09e4093457ac4857e773
+  - enabled: 1
+    path: Assets/Scenes/DoorDispley.unity
+    guid: 5b695d4aa2b998b4f94dc3387e8f88b9
+  - enabled: 1
+    path: Assets/Scenes/ForthPuzzleScene 1.unity
+    guid: 6b8e7abd9de637548a04add7b57673fd
+  - enabled: 1
     path: Assets/Scenes/TEst.unity
     guid: 9ca1ad33566de9f41bdcdf3dbf7f1d58
   m_configObjects: {}

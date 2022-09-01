@@ -85,7 +85,9 @@ public class LiftanzeigeController : MonoBehaviour
 
     public void GoBackTo1(){
        //int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+       //int nextSceneIndex = currentSceneIndex + 1;
         SceneManager.UnloadSceneAsync(5);
+        
     }
     
     

@@ -50,6 +50,7 @@ public class CursorController : MonoBehaviour, IPointerEnterHandler, IPointerExi
             else if (gameObject.tag == "BlueBall"){
                 gameObject.GetComponent<ShowInventory>().ShowImage();
             }
+            
         
             Destroy(gameObject);
             ChangeCursor(cursor);
@@ -74,8 +75,15 @@ public class CursorController : MonoBehaviour, IPointerEnterHandler, IPointerExi
         if (gameObject.tag == "PuzzlePieces"){
             gameObject.GetComponent<ShowPuzzlePieces>().ShowImages(); 
             Destroy(gameObject); 
+        }
 
-        }if (gameObject.tag == "Infotext"){
+        if (gameObject.tag == "Caesar"){
+            gameObject.GetComponent<ShowInventory>().ShowImage(); 
+            Destroy(gameObject); 
+           
+
+        }
+        if (gameObject.tag == "Infotext"){
             Debug.Log("Text ansehen");
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             int nextSceneIndex = currentSceneIndex + 1;

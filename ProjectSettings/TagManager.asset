@@ -15,6 +15,7 @@ TagManager:
   - Wall
   - PuzzlePieces
   - Infotext
+  - Caesar
   layers:
   - Default
   - TransparentFX

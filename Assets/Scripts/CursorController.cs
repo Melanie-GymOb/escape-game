@@ -73,6 +73,14 @@ public class CursorController : MonoBehaviour, IPointerEnterHandler, IPointerExi
             
         }
 
+        if (gameObject.tag == "Hinweise"){
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            int nextSceneIndex = currentSceneIndex + 1;
+            ChangeCursor(cursor);
+            SceneManager.LoadScene("HinweiseKryptologie", LoadSceneMode.Additive);  
+            
+        }
+
         if (gameObject.tag == "Anleitungstext"){
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             int nextSceneIndex = currentSceneIndex + 1;
@@ -95,7 +103,6 @@ public class CursorController : MonoBehaviour, IPointerEnterHandler, IPointerExi
 
         }
         if (gameObject.tag == "Infotext"){
-            Debug.Log("Text ansehen");
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             int nextSceneIndex = currentSceneIndex + 1;
             SceneManager.LoadScene(nextSceneIndex, LoadSceneMode.Additive);  

@@ -17,6 +17,7 @@ TagManager:
   - Infotext
   - Caesar
   - Book
+  - Hinweise
   layers:
   - Default
   - TransparentFX

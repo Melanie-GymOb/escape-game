@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950948c0020f9424ba5174a044f7eb95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctAnswerDigit: 3
+  correctAnswerDigit: 2
 --- !u!1 &54791376 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1529372807591125207, guid: 195d96ce9e474f644822a329eab7f7af, type: 3}
@@ -596,7 +596,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Haben Sie die Botschaft auf dem Computer schon gelesen?
+  m_text: Haben Sie schon gesehen, dass ein Raspberry Pi Computer noch nicht zusammengebaut
+    ist?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -728,7 +729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950948c0020f9424ba5174a044f7eb95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctAnswerDigit: 9
+  correctAnswerDigit: 3
 --- !u!1 &538486955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,7 +1496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950948c0020f9424ba5174a044f7eb95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctAnswerDigit: 8
+  correctAnswerDigit: 1
 --- !u!1 &958388623
 GameObject:
   m_ObjectHideFlags: 0
@@ -3582,7 +3583,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Das Smartphone kann Ihnen n\xFCtzliche Hinweise geben."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

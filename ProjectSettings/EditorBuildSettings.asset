@@ -38,10 +38,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InfotextVignere.unity
     guid: a6b734e4582563c4b8586aae1f922510
+  - enabled: 0
+    path: Assets/Scenes/ForthPuzzleSceneDef.unity
+    guid: a93fa7027d8863f438c3050437740d32
   - enabled: 1
     path: Assets/Scenes/ForthPuzzleScene 1.unity
     guid: 6b8e7abd9de637548a04add7b57673fd
   - enabled: 1
+    path: Assets/Scenes/LastDoorDisplay.unity
+    guid: f9bad6ddbbdf41848942ac88f212c726
+  - enabled: 1
     path: Assets/Scenes/TEst.unity
     guid: 9ca1ad33566de9f41bdcdf3dbf7f1d58
+  - enabled: 1
+    path: Assets/Scenes/HinweiseKryptologie.unity
+    guid: f4477452bc21ccf4d88434e6816eb00e
   m_configObjects: {}

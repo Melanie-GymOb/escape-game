@@ -54,7 +54,7 @@ public class MovePiece : MonoBehaviour
     void OnMouseDown(){
         //Debug.Log("hallo");
        if (thisNumber == CorrectPiece.GetNumber()){
-           showPuzzle.SetActive(true); //TO DO
+           showPuzzle.SetActive(true); 
            CorrectPiece.ChangeNumber();
            Destroy(gameObject); 
            Instantiate(edgeParticles, showPuzzle.transform.position, edgeParticles.rotation);

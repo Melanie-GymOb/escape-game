@@ -27,11 +27,11 @@ public class OpenDoor : MonoBehaviour
             transform.position = transform.position + new Vector3(2,0,-1);
             closed = false;
         }
-        else {
-            transform.localEulerAngles = new Vector3(0,0,0);
-            transform.position = transform.position + new Vector3(0,0,0);
-            closed = true;
-        }
+        //else {
+           // transform.localEulerAngles = new Vector3(0,0,0);
+           //transform.position = transform.position + new Vector3(0,0,0);
+           //closed = true;
+        //}
     }
     public bool GetStatus(){
         return closed;

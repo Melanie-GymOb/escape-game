@@ -72,6 +72,8 @@ public class DoorDisplayController : MonoBehaviour
         Debug.Log("Check");
     }
 
+    
+
     public void Restart(){
         Debug.Log("Restart");
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;

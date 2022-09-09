@@ -16,6 +16,7 @@ TagManager:
   - PuzzlePieces
   - Infotext
   - Caesar
+  - Book
   layers:
   - Default
   - TransparentFX

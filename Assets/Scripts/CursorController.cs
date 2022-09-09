@@ -60,8 +60,19 @@ public class CursorController : MonoBehaviour, IPointerEnterHandler, IPointerExi
         if (gameObject.tag == "ElevatorDisplay"){
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             int nextSceneIndex = currentSceneIndex + 1;
+            ChangeCursor(cursor);
             SceneManager.LoadScene(nextSceneIndex, LoadSceneMode.Additive);  
+            
         }
+
+        if (gameObject.tag == "Book"){
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            int nextSceneIndex = currentSceneIndex + 1;
+            ChangeCursor(cursor);
+            SceneManager.LoadScene("InfotextVignere", LoadSceneMode.Additive);  
+            
+        }
+
         if (gameObject.tag == "Anleitungstext"){
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             int nextSceneIndex = currentSceneIndex + 1;

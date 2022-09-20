@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
+
 //7https://www.youtube.com/watch?v=BGr-7GZJNXg
 public class DragAndDrop : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IDropHandler, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
@@ -10,6 +12,8 @@ public class DragAndDrop : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     [SerializeField] Texture2D cursor; 
     [SerializeField] Texture2D cursorOver;
+    [SerializeField] CountCorrectPieceComputer CorrectPiece;
+    [SerializeField] int totalnumber;
 
     public string pieceStatus = "";
    
@@ -70,7 +74,13 @@ public class DragAndDrop : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         if (other.gameObject.name == gameObject.name){
             transform.position = other.gameObject.transform.position;
             pieceStatus = "locked";
+            CorrectPiece.ChangeNumber();
+            ChangeCursor(cursor);
             Debug.Log("done");
+        }
+
+        if (CorrectPiece.GetNumber() == totalnumber){
+            SceneManager.LoadScene("ThirdPuzzleScene");
         }
     }
 }

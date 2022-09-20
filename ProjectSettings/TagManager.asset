@@ -18,6 +18,7 @@ TagManager:
   - Caesar
   - Book
   - Hinweise
+  - Hardware
   layers:
   - Default
   - TransparentFX

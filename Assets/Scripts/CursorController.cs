@@ -107,6 +107,10 @@ public class CursorController : MonoBehaviour, IPointerEnterHandler, IPointerExi
             int nextSceneIndex = currentSceneIndex + 1;
             SceneManager.LoadScene(nextSceneIndex, LoadSceneMode.Additive);  
         }
+
+        if (gameObject.tag == "Hardware"){
+            SceneManager.LoadScene("SettingComputer", LoadSceneMode.Additive);  
+        }
     }
 
     public void OnPointerEnter(PointerEventData pointerEventData)

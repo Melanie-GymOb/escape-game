@@ -24,8 +24,8 @@ EditorBuildSettings:
     path: Assets/Scenes/LiftanzeigeScene.unity
     guid: 9e2ae8618ba79ba4aa058e44b0c4102d
   - enabled: 1
-    path: Assets/Scenes/Elevator.unity
-    guid: f6b9074efe3c62b4fa0bb7f86633182a
+    path: Assets/Scenes/Elevator 1.unity
+    guid: 7f986d627b77dfa4d8c5ff1114c25a93
   - enabled: 1
     path: Assets/Scenes/InfotextLogic2.unity
     guid: b6adaa34c91d3ab49889db3056c33bde
@@ -35,12 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DoorDispley.unity
     guid: 5b695d4aa2b998b4f94dc3387e8f88b9
-  - enabled: 1
-    path: Assets/Scenes/InfotextVignere.unity
-    guid: a6b734e4582563c4b8586aae1f922510
   - enabled: 0
-    path: Assets/Scenes/ForthPuzzleSceneDef.unity
-    guid: a93fa7027d8863f438c3050437740d32
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/ForthPuzzleScene 1.unity
     guid: 6b8e7abd9de637548a04add7b57673fd
@@ -51,6 +48,15 @@ EditorBuildSettings:
     path: Assets/Scenes/TEst.unity
     guid: 9ca1ad33566de9f41bdcdf3dbf7f1d58
   - enabled: 1
+    path: Assets/Scenes/InfotextVignere.unity
+    guid: a6b734e4582563c4b8586aae1f922510
+  - enabled: 1
     path: Assets/Scenes/HinweiseKryptologie.unity
     guid: f4477452bc21ccf4d88434e6816eb00e
+  - enabled: 1
+    path: Assets/Scenes/HinweiseElevator.unity
+    guid: ea2f109ff70621b47a1a4f5c513ce767
+  - enabled: 1
+    path: Assets/Scenes/SettingComputer.unity
+    guid: bdb0ac4dcaf356048bb6f2a189335a97
   m_configObjects: {}

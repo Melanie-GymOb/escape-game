@@ -39,7 +39,6 @@ public class LiftanzeigeController : MonoBehaviour
             //Debug.Log(currentCorrectNumber);
         }
         if (counterAnswers == 3){
-            Debug.Log("Hallo");
             CheckCorrectness();
         }
         

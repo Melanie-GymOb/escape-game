@@ -33,7 +33,6 @@ public class DoorDisplayController : MonoBehaviour
             //Debug.Log(currentCorrectNumber);
         }
         if (counterAnswers == 3){
-            Debug.Log("Hallo");
             CheckCorrectness();
         }
         

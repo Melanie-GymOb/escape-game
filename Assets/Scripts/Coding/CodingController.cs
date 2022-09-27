@@ -2,18 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 
-//7https://www.youtube.com/watch?v=BGr-7GZJNXg
-public class DragAndDrop : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IDropHandler, IDragHandler, IBeginDragHandler, IEndDragHandler
+public class CodingController : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
+    
+    
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
 
     [SerializeField] Texture2D cursor; 
     [SerializeField] Texture2D cursorOver;
-    [SerializeField] CountCorrectPieceComputer CorrectPiece;
+
+    [SerializeField] CountCorrectPieceComputer CorrectCodingLine;
     [SerializeField] int totalnumber;
+    
 
     public string pieceStatus = "";
    
@@ -25,7 +27,7 @@ public class DragAndDrop : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         Cursor.lockState = CursorLockMode.Confined;
     }
 
-        public void OnPointerEnter(PointerEventData eventData)
+    public void OnPointerEnter(PointerEventData eventData)
     {
         if (pieceStatus != "locked"){
         ChangeCursor(cursorOver);
@@ -53,34 +55,36 @@ public class DragAndDrop : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     }
 
     public void OnEndDrag(PointerEventData eventData){
-        if (pieceStatus != "locked"){
+       if (pieceStatus != "locked"){
         canvasGroup.alpha = 1f; 
         canvasGroup.blocksRaycasts = true;
         }
     }
 
-    public void OnDrop(PointerEventData eventData){
-        if (eventData.pointerDrag.gameObject.name == gameObject.name){
-            Debug.Log("done");
-        }
-    }
-
+    
     public void ChangeCursor(Texture2D cursorType){
         Vector2 hotspot = new Vector2(cursorType.width/2, cursorType.height / 2);
         Cursor.SetCursor(cursorType, hotspot, CursorMode.Auto);
     }
 
     public void OnTriggerEnter2D(Collider2D other){
+        
         if (other.gameObject.name == gameObject.name){
+            pieceStatus = "locked"; 
             transform.position = other.gameObject.transform.position;
-            pieceStatus = "locked";
-            CorrectPiece.ChangeNumber();
+            CorrectCodingLine.ChangeNumber();
             ChangeCursor(cursor);
-            Debug.Log("done");
-        }
-
-        if (CorrectPiece.GetNumber() == totalnumber){
-            SceneManager.LoadScene("ThirdPuzzleScene");
+            
         }
     }
+
+    public void OnButtonPressed(){
+        if (CorrectCodingLine.GetNumber() == totalnumber){
+            Debug.Log("todo");
+            gameObject.GetComponent<ShowInventory>().ShowImage();
+            
+        }
+    }
+
+    
 }

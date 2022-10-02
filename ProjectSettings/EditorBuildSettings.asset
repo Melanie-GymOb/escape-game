@@ -59,4 +59,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SettingComputer.unity
     guid: bdb0ac4dcaf356048bb6f2a189335a97
+  - enabled: 1
+    path: Assets/Scenes/ProgrammingStart.unity
+    guid: 897fdff9147cf614588b2cf6ebcf2682
+  - enabled: 1
+    path: Assets/Scenes/ProgrammingDef.unity
+    guid: 3c2ad382e21d05d4b9da458507a68371
+  - enabled: 1
+    path: Assets/Scenes/ProgrammingAfter.unity
+    guid: 1c3acb32a1d985b4393c15bee39b5bd3
+  - enabled: 1
+    path: Assets/Scenes/LastDoorDisplayAfter.unity
+    guid: cc71aae988ca1834c98d27c3d7401ac2
   m_configObjects: {}

@@ -84,6 +84,9 @@ public class CodingController : MonoBehaviour, IPointerEnterHandler, IPointerExi
             gameObject.GetComponent<ShowInventory>().ShowImage();
             
         }
+        else {
+            gameObject.GetComponent<ShowInventory2>().ShowImage2();
+        }
     }
 
     

@@ -80,7 +80,7 @@ public class DragAndDrop : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         }
 
         if (CorrectPiece.GetNumber() == totalnumber){
-            SceneManager.LoadScene("ThirdPuzzleScene");
+            SceneManager.LoadScene("ProgrammingStart");
         }
     }
 }

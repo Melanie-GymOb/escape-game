@@ -15,4 +15,15 @@ public class BackToOffice : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.UnloadSceneAsync(currentSceneIndex+1);
     }
+
+    public void GoBackToScreen(){
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex-1);
+    }
+
+    public void NewCode(){
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        
+        SceneManager.LoadScene(currentSceneIndex);
+    }
 }

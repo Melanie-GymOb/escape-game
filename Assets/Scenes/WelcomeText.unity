@@ -723,7 +723,10 @@ MonoBehaviour:
   m_text: "Soso, Sie dachten, wir w\xFCrden Sie gleich zum Chef vorlassen. Da haben
     Sie sich aber schwer get\xE4uscht. Zuerst m\xFCssen Sie beweisen, dass Sie auch
     w\xFCrdig sind, diese Ausbildungsstelle anzutreten. Gehen Sie durch die T\xFCre.
-    Es warten f\xFCnf R\xE4tsel auf Sie...."
+    Es warten f\xFCnf R\xE4tsel auf Sie, die es zu l\xF6sen gilt. Wir lassen Sie
+    dabei aber nicht allein. \n\nHilfestellungen sind entweder in der Szenerie zu
+    finden oder dr\xFCcken auf \"Hilfekn\xF6pfe\" zu erhalten. Nutzen Sie diese aber
+    nur bei Bedarf. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

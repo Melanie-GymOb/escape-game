@@ -554,7 +554,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wie kann das Baumschema Ihnen bei der roten Zifffer helfen?
+  m_text: Wie kann Ihnen das Baumschema  bei der roten Ziffer helfen?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -689,8 +689,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Verschiedene Hilfsmittel sind vonn\xF6ten. Die Farben k\xF6nnen Ihnen
-    helfen, die richtigen Verschl\xFCsselungsmechanismen zu finden.\r\n"
+  m_text: "Verschiedene Hilfsmittel sind vonn\xF6ten. Durchsuchen Sie alle Schubladen
+    und Regale. Die Farben k\xF6nnen Ihnen helfen, die richtigen Verschl\xFCsselungsmechanismen
+    zu finden.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2288,7 +2289,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Vielleicht finden Sie einen Infotext zur Entzifferung der blauen Ziffer?
+  m_text: Vielleicht finden Sie ein hilfreiches Buch zur Entzifferung der blauen
+    Ziffer?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

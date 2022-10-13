@@ -111,6 +111,11 @@ public class CursorController : MonoBehaviour, IPointerEnterHandler, IPointerExi
         if (gameObject.tag == "Hardware"){
             SceneManager.LoadScene("SettingComputer", LoadSceneMode.Additive);  
         }
+
+        if (gameObject.tag == "Boss"){
+            gameObject.GetComponent<ShowInventory>().ShowImage();
+            Time.timeScale = 0;            
+        }
     }
 
     public void OnPointerEnter(PointerEventData pointerEventData)

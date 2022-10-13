@@ -19,6 +19,7 @@ TagManager:
   - Book
   - Hinweise
   - Hardware
+  - Boss
   layers:
   - Default
   - TransparentFX

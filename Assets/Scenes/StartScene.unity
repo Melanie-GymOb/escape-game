@@ -725,7 +725,8 @@ MonoBehaviour:
     Sie durch die R\xE4umlichkeiten. \n\n\xC4ndert sich der Cursor zu einer Hand
     mit ausgestrecktem Zeigefinger, l\xE4sst sich das Objekt mit der linken Maustaste
     anklicken.\n\n\xC4ndert sich der Cursor zu einer flachen Hand, l\xE4sst sich
-    das Objekt mit gedr\xFCckter linker Maustaste verschieben."
+    das Objekt mit gedr\xFCckter linker Maustaste verschieben.\n\nHalten Sie Stift
+    und Papier bereit. Teils k\xF6nnen Notizen hilfreich sein."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

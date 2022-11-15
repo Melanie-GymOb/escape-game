@@ -6,7 +6,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"C:/Users/melan/Documents/GitHub/escape-game/Web-Dateien/v2;C:/Users/melan/Unity 3D/Arbeit_v1/Web-Dateien/v1;C:/Users/melan/Unity 3D/Arbeit_v1/Web-Dateien;;;;;;;\"}"
+                "value": "{\"m_Value\":\"C:/Users/melan/Documents/GitHub/escape-game/Web-Dateien/v3;C:/Users/melan/Documents/GitHub/escape-game/Web-Dateien/v2;C:/Users/melan/Unity 3D/Arbeit_v1/Web-Dateien/v1;C:/Users/melan/Unity 3D/Arbeit_v1/Web-Dateien;;;;;;\"}"
             },
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",

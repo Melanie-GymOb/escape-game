@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 223f92c3c25a3f64385a960152f4142d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctAnswerDigit: 1
+  correctAnswerDigit: 6
 --- !u!1 &54791376 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1529372807591125207, guid: 195d96ce9e474f644822a329eab7f7af, type: 3}
@@ -1840,7 +1840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 223f92c3c25a3f64385a960152f4142d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctAnswerDigit: 6
+  correctAnswerDigit: 1
 --- !u!1 &958388623
 GameObject:
   m_ObjectHideFlags: 0

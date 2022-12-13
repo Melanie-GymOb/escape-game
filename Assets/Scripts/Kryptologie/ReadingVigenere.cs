@@ -7,6 +7,6 @@ public class ReadingVigenere : MonoBehaviour
 {  
     
     public void GoBack(){
-        SceneManager.UnloadSceneAsync(13);
+        SceneManager.UnloadSceneAsync("InfotextVignere");
     }
 }

@@ -45,9 +45,6 @@ EditorBuildSettings:
     path: Assets/Scenes/LastDoorDisplay.unity
     guid: f9bad6ddbbdf41848942ac88f212c726
   - enabled: 1
-    path: Assets/Scenes/TEst.unity
-    guid: 9ca1ad33566de9f41bdcdf3dbf7f1d58
-  - enabled: 1
     path: Assets/Scenes/InfotextVignere.unity
     guid: a6b734e4582563c4b8586aae1f922510
   - enabled: 1
@@ -71,6 +68,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LastDoorDisplayAfter.unity
     guid: cc71aae988ca1834c98d27c3d7401ac2
+  - enabled: 1
+    path: Assets/Scenes/TEst.unity
+    guid: 9ca1ad33566de9f41bdcdf3dbf7f1d58
   - enabled: 1
     path: Assets/Scenes/LastScene.unity
     guid: 01f82d33876a1eb4e8bf5d39f1b9b639

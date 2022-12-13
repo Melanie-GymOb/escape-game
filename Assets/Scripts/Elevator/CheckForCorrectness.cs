@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class CheckForCorrectness : MonoBehaviour
 {
     [SerializeField] ControllSwitches[] allSwitches= new ControllSwitches[5];
+    [SerializeField] GameObject codeIsCorrect;
     
     void OnMouseDown(){ 
         if (CheckStatus() == false){
@@ -15,6 +16,8 @@ public class CheckForCorrectness : MonoBehaviour
             //Debug.Log("Rätsel gelöst"); 
             /*int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             int nextSceneIndex = currentSceneIndex + 1;*/
+            gameObject.GetComponent<ShowInventory>().showImage.SetActive(false);
+            codeIsCorrect.SetActive(true);
             SceneManager.LoadScene("ThirdPuzzleScene");
             }
     }

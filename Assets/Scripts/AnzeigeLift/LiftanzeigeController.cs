@@ -18,16 +18,12 @@ public class LiftanzeigeController : MonoBehaviour
     int currentCorrectNumber;
     
     [SerializeField] TextMeshProUGUI numberNotCorrectText;
+    [SerializeField] GameObject codeIsCorrect;
+    [SerializeField] GameObject codeIsFalse;
     int[] enteredNumbers = new int[3];
     int counterAnswers = 0;
 
-    /**void Awake(){
-        currentCorrectNumber = outputField[countField].GetCorrectAnswerDigit();
-        //Debug.Log(currentCorrectNumber);
-        //Debug.Log(displayTexts.Length);
-    }**/
-
-    
+      
 
     public void OnAnswerSelected(int index)
     {
@@ -67,10 +63,20 @@ public class LiftanzeigeController : MonoBehaviour
         if(enteredNumbers[0] == outputField[0].GetCorrectAnswerDigit() &&
            enteredNumbers[1] == outputField[1].GetCorrectAnswerDigit() && 
            enteredNumbers[2] == outputField[2].GetCorrectAnswerDigit()){
+               codeIsCorrect.SetActive(true);
                int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-               int nextSceneIndex = currentSceneIndex + 1;
+               int nextSceneIndex = currentSceneIndex + 2;
                 SceneManager.LoadScene(nextSceneIndex); 
            }
+
+        else {
+               codeIsFalse.SetActive(true);
+               counterAnswers = 0;
+               countField = 0;
+               foreach(var obj in displayTexts) {
+                obj.color = Color.red;
+               }
+        }
         Debug.Log("Check");
     }
 

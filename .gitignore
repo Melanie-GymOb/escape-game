@@ -56,3 +56,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Web-Dateien/v3/Build/v3.data
+Web-Dateien/v3/Build/v3.framework.js
+Web-Dateien/v3/Build/v3.loader.js

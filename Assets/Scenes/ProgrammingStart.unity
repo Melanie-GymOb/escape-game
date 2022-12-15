@@ -555,7 +555,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 508.26477, y: -98.745605}
+  m_AnchoredPosition: {x: 695.5, y: -190}
   m_SizeDelta: {x: 410.7875, y: 91.5664}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &707055974
@@ -1892,6 +1892,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   numberNotCorrectText: {fileID: 0}
+  codeIsCorrect: {fileID: 0}
+  codeIsFalse: {fileID: 0}
 --- !u!114 &2131608419
 MonoBehaviour:
   m_ObjectHideFlags: 0

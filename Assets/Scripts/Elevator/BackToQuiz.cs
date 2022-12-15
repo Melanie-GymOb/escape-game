@@ -7,6 +7,6 @@ public class BackToQuiz : MonoBehaviour
 {
     public void GoBackToScene(){
        //int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.UnloadSceneAsync(15);
+        SceneManager.UnloadSceneAsync(14);
     }
 }

@@ -109,7 +109,7 @@ public class CursorController : MonoBehaviour, IPointerEnterHandler, IPointerExi
         }
 
         if (gameObject.tag == "Hardware"){
-            SceneManager.LoadScene("SettingComputer", LoadSceneMode.Additive);  
+            SceneManager.LoadScene("SettingComputer"); //, LoadSceneMode.Additive);  
         }
 
         if (gameObject.tag == "Boss"){

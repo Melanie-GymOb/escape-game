@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ThirdPuzzleScene.unity
     guid: c95198e01dbd09e4093457ac4857e773
   - enabled: 1
-    path: Assets/Scenes/DoorDispley.unity
+    path: Assets/Scenes/DoorDisplay.unity
     guid: 5b695d4aa2b998b4f94dc3387e8f88b9
   - enabled: 0
     path: 

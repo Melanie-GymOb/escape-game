@@ -259,7 +259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 496.4796, y: 44}
+  m_AnchoredPosition: {x: 472.4889, y: 44}
   m_SizeDelta: {x: 544.9592, y: 88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &163380487
@@ -385,7 +385,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -148, y: -221}
+  m_AnchoredPosition: {x: -219.62514, y: -221}
   m_SizeDelta: {x: 173.3083, y: 67.077}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &206951198
@@ -554,7 +554,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wie kann Ihnen das Baumschema  bei der roten Ziffer helfen?
+  m_text: "Wie kann Ihnen das Baumschema bei der roten Ziffer helfen? Beachten Sie,
+    dass die Abst\xE4nde zwischen den roten Codezeichen den Beginn eines neuen Buchstabens
+    bedeuten."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -802,8 +804,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 542.8558, y: 85.04532}
-  m_SizeDelta: {x: 637.7115, y: 194.0906}
+  m_AnchoredPosition: {x: 519.4939, y: 103.46266}
+  m_SizeDelta: {x: 590.9877, y: 194.8073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &538486955
 GameObject:
@@ -988,10 +990,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1000, y: 560}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1075,7 +1077,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 562, y: 101}
+  m_AnchoredPosition: {x: 545.47327, y: 101}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &626701898
@@ -1112,7 +1114,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 463, y: 95}
+  m_AnchoredPosition: {x: 433.3394, y: 102.22868}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &633103758
@@ -1283,10 +1285,10 @@ RectTransform:
   m_Father: {fileID: 563442171}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 743.0752, y: -440.23364}
-  m_SizeDelta: {x: 1486.1504, y: 880.4673}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 524.38416, y: -155.88612}
+  m_SizeDelta: {x: 3092.2266, y: 1593.2214}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &707055974
 MonoBehaviour:
@@ -1459,7 +1461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -148, y: -122}
+  m_AnchoredPosition: {x: -219.62515, y: -122}
   m_SizeDelta: {x: 173.3083, y: 67.077}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &931283233
@@ -1646,7 +1648,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -148, y: 70.539}
+  m_AnchoredPosition: {x: -219.62514, y: 70.539}
   m_SizeDelta: {x: 173.3083, y: 67.077}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1146117090
@@ -2126,10 +2128,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1000, y: 560}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2405,7 +2407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -285, y: 155}
+  m_AnchoredPosition: {x: -365.7718, y: 155}
   m_SizeDelta: {x: 43.3521, y: 33.962}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1534382397
@@ -2555,7 +2557,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -148, y: -32}
+  m_AnchoredPosition: {x: -219.62514, y: -32}
   m_SizeDelta: {x: 173.3083, y: 67.077}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1651827285
@@ -2836,7 +2838,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 77.85365, y: 133.8866}
+  m_AnchoredPosition: {x: 5.592804, y: 133.8866}
   m_SizeDelta: {x: 614.1182, y: 71.5729}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1733621142
@@ -3196,8 +3198,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Wie heisst denn diese ber\xFChmte Figur aus Asterix und Obelix? Vielleicht
-    wurde da derselbe Schl\xFCssel verwendet wie f\xFCr die gelbe Ziffer?"
+  m_text: "Haben Sie diese ber\xFChmte Figur aus Asterix und Obelix gefunden? Vielleicht
+    wurde da derselbe Schl\xFCssel f\xFCr den Namen verwendet wie f\xFCr die gelbe
+    Ziffer?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3323,10 +3326,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1000, y: 560}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

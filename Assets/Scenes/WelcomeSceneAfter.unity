@@ -288,6 +288,10 @@ PrefabInstance:
       propertyPath: mouseLook.lockCursor
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: movementSettings.JumpForce
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -803,6 +807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c95cc865e3a3a04468a52075c3ff5893, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uiInventory: {fileID: 0}
 --- !u!1001 &270831111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1055,7 +1060,6 @@ GameObject:
   - component: {fileID: 513880054}
   - component: {fileID: 513880053}
   - component: {fileID: 513880052}
-  - component: {fileID: 513880051}
   m_Layer: 0
   m_Name: Door_HerzogElmiger (1)
   m_TagString: Tuere
@@ -1063,20 +1067,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &513880051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513880050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a6536282219b2c4b9991a1f92bdc145, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cursor: {fileID: 2800000, guid: 38e8bc2a04ff0154e9290983e4090ed3, type: 3}
-  cursorOver: {fileID: 2800000, guid: cf924796369bc83449de22b40fe16ae6, type: 3}
 --- !u!65 &513880052
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1167,7 +1157,6 @@ GameObject:
   m_Component:
   - component: {fileID: 524791622}
   - component: {fileID: 524791621}
-  - component: {fileID: 524791620}
   - component: {fileID: 524791619}
   m_Layer: 0
   m_Name: Text
@@ -1189,20 +1178,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.8499994, y: 6.2000012, z: 0.20000005}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &524791620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524791618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a6536282219b2c4b9991a1f92bdc145, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cursor: {fileID: 2800000, guid: 38e8bc2a04ff0154e9290983e4090ed3, type: 3}
-  cursorOver: {fileID: 2800000, guid: cf924796369bc83449de22b40fe16ae6, type: 3}
 --- !u!212 &524791621
 SpriteRenderer:
   m_ObjectHideFlags: 0

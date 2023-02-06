@@ -66,7 +66,7 @@ public class LiftanzeigeController : MonoBehaviour
                codeIsCorrect.SetActive(true);
                int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
                int nextSceneIndex = currentSceneIndex + 2;
-                SceneManager.LoadScene(nextSceneIndex); 
+                SceneManager.LoadScene(nextSceneIndex, LoadSceneMode.Single); 
            }
 
         else {

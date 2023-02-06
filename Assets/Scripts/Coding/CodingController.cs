@@ -82,6 +82,7 @@ public class CodingController : MonoBehaviour, IPointerEnterHandler, IPointerExi
         if (CorrectCodingLine.GetNumber() == totalnumber){
             Debug.Log("todo");
             gameObject.GetComponent<ShowInventory>().ShowImage();
+            gameObject.GetComponent<DontShowInventory>().DontShowImage();
             
         }
         else {
